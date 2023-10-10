@@ -6,8 +6,17 @@
   "author": "Sooji Kim <yh0gogo@gmail.com>",
   "license": "MIT",
   "private": false,
+  "type": "module",
+  "scripts": {
+    "run-problem": "npx ts-node ./problems/runFile.ts", 
+    "watch": "npx tsc-watch"
+  },
+  "dependencies": {
+    "typescript": "^5.2.2"
+  },
   "devDependencies": {
-    "tsc-watch": "^5.0.3",
-    "typescript": "^4.7.4"
+    "@types/node": "^20.8.4",
+    "ts-node": "^10.9.1",
+    "tsc-watch": "^6.0.4"
   }
 }
